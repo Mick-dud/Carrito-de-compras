@@ -17,9 +17,10 @@ export const TitleComponents = ({ title }: Props) => {
 export const styles = StyleSheet.create({
     title: {
         color: SECUNDARY_COLOR,
-        fontSize: 25,
+        fontSize: 35,
         fontWeight: 'bold',
         paddingHorizontal: 30,
-        paddingVertical: 27
+        paddingVertical: 27,
+        alignSelf:'center'
     },
 });

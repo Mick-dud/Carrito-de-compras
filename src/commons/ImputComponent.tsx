@@ -23,12 +23,13 @@ export const ImputComponent = ({ placeholder, keyboardType, changeForm, property
     )
 }
 
-
 const styles = StyleSheet.create({
     inputText: {
         backgroundColor: INPUT_COLOR,
         paddingHorizontal: 20,
         borderRadius: 20,
-        margin: 7,
+        margin: 8,
+        paddingLeft: 20,
+        boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.6)'
     }
 })

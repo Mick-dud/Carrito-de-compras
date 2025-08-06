@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
         borderTopLeftRadius: 30,
         borderTopRightRadius: 50,
         paddingHorizontal: 40,
-        paddingTop: 30
+        paddingTop: 30,
+        boxShadow: '4px 1px 15px rgba(0, 0, 0, 0.88)'
     }
 });

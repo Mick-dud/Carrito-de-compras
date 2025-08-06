@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { StatusBar, Text, View } from 'react-native'
 import { TitleComponents } from '../components/TitleComponents'
-import { TERIARY_COLOR } from '../commons/constants'
+import { PRIMARY_COLOR, TERIARY_COLOR } from '../commons/constants'
 import { BodyComponent } from '../components/BodyComponent'
 import { styles } from '../theme/appThemes';
 import { ImputComponent } from '../commons/ImputComponent'
@@ -32,7 +32,7 @@ const handleLogin =() => {
 
     return (
         <View>
-            <StatusBar backgroundColor={TERIARY_COLOR} />
+            <StatusBar backgroundColor={PRIMARY_COLOR}  />
             <TitleComponents title='Inicia Sesión' />
             <BodyComponent>
                 <Text style={styles.titleWelcome}>Bienvenido de Nuevo!</Text>

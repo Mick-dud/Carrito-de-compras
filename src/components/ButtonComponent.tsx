@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
         width: 120,
         borderRadius: 10,
         alignSelf: 'center',
-        boxShadow: '5px 5px 12px rgba(0, 0, 0, 0.6)'
+        boxShadow: '3px 5px 12px rgba(0, 0, 0, 0.6)'
     },
     buttonText: {
         color: PRIMARY_COLOR,
