@@ -38,8 +38,8 @@ const handleLogin =() => {
                 <Text style={styles.titleWelcome}>Bienvenido de Nuevo!</Text>
                 <Text style={styles.textDescription}>Realiza tus compras de manera rapida y segura</Text>
                 <View style={styles.containerForm}>
-                    <ImputComponent placeholder='Usuario' keyboardType='default' changeForm = {changeForm} property='username' />
-                    <ImputComponent placeholder='Contraseña' keyboardType='default' changeForm = {changeForm} property='password' isPassword={true} />
+                    <ImputComponent placeholder='Usuarios' keyboardType='default' changeForm = {changeForm} property='username' />
+                    <ImputComponent placeholder='Contraseñas' keyboardType='default' changeForm = {changeForm} property='password' isPassword={true} />
                 </View >
                 <ButtonComponent textButton='Enviar' handleLogin={handleLogin}/>
             </BodyComponent>
